@@ -7,7 +7,7 @@ class Pages extends Controller
     public function index()
     {
 
-        $data = ["title" => "Welcome"];
+        $data = ["title" => "SHAREPOSTS"];
         $this->view('pages/index', $data);
     }
 
