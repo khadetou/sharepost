@@ -14,3 +14,7 @@ define("URLROOT", "http://localhost:8080/sharepost");
 
 //Site name
 define("SITENAME", "SHAREPOST");
+
+
+//App version 
+define("APPVERSION", "1.0.0");
