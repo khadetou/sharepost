@@ -12,7 +12,7 @@
 
             <div class="text-end ms-lg-auto">
                 <a href="<?php echo URLROOT; ?>/users/login" type="button" class="btn btn-outline-light me-2">Login</a>
-                <a href="<?php echo URLROOT; ?>/users/register" type="button" class="btn btn-warning">Register</a>
+                <a href="<?php echo URLROOT; ?>/users/register" type="button" class="btn btn-success">Register</a>
             </div>
         </div>
     </div>
