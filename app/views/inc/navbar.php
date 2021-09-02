@@ -11,8 +11,12 @@
             </ul>
 
             <div class="text-end ms-lg-auto">
-                <a href="<?php echo URLROOT; ?>/users/login" type="button" class="btn btn-outline-light me-2">Login</a>
-                <a href="<?php echo URLROOT; ?>/users/register" type="button" class="btn btn-success">Register</a>
+                <?php if (isset($_SESSION['user_id'])) : ?>
+                    <a href="<?php echo URLROOT; ?>/users/logout" type="button" class="btn btn-success">LogOut</a>
+                <?php else : ?>
+                    <a href="<?php echo URLROOT; ?>/users/login" type="button" class="btn btn-outline-light me-2">Login</a>
+                    <a href="<?php echo URLROOT; ?>/users/register" type="button" class="btn btn-success">Register</a>
+                <?php endif; ?>
             </div>
         </div>
     </div>
