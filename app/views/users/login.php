@@ -5,6 +5,7 @@
             <h2>Create an Account</h2>
             <p>Please fill out this form to register with us</p>
             <form action="<?php echo URLROOT; ?>/users/login" method="post">
+                <?php flash("register_success"); ?>
                 <h1 class="h3 mb-3 fw-normal text-center">Login</h1>
 
                 <div class="form-floating mb-3">
